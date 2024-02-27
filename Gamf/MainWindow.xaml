@@ -7,10 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label>TEST</Label>
-        <TextBox></TextBox>
-        <Button Background="red">Gomb</Button>
-        <TextBox Background="Green"></TextBox>
-        <Button>Gomb</Button>
+        <Button Click="Button_Click" Width="100" Height="100">Szamol</Button>
+        <Label x:Name="firstLabel" Width="100" Height="100" Margin="0 -250 -200 0"></Label>
+        <Label x:Name="timeLabel" Width="150" Height="100" Margin="0 -250 200 0"></Label>
     </Grid>
 </Window>
