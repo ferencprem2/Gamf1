@@ -7,10 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label>TEST</Label>
-        <TextBox></TextBox>
-        <Button Background="red">Gomb</Button>
-        <TextBox Background="Green"></TextBox>
-        <Button>Gomb</Button>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnAFeladat" Grid.Column="0" Grid.Row="0" Width="150" Height="50px" FontSize="20px">1.fleadat: a)</Button>
+        <Button x:Name="btnBFeladat" Grid.Column="0" Grid.Row="1" Width="150" Height="50px" FontSize="20px">1.fleadat: b)</Button>
+        <Button x:Name="btnCFeladat" Grid.Column="0" Grid.Row="2" Width="150" Height="50px" FontSize="20px">1.fleadat: c)</Button>
+        <Label Grid.Column="1"/>
+        <Label Grid.Column="1" Grid.Row="1"/>
+        <Label Grid.Column="1" Grid.Row="2"/>
     </Grid>
 </Window>
