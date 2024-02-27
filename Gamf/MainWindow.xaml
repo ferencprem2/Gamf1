@@ -9,6 +9,6 @@
     <Grid>
         <Label>TEST</Label>
         <TextBox></TextBox>
-        <Button>Gomb</Button>
+        <Button Background="red">Gomb</Button>
     </Grid>
 </Window>
