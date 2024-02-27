@@ -10,5 +10,7 @@
         <Label>TEST</Label>
         <TextBox></TextBox>
         <Button Background="red">Gomb</Button>
+        <TextBox Background="Green"></TextBox>
+        <Button>Gomb</Button>
     </Grid>
 </Window>
